@@ -1,4 +1,5 @@
 #EX 2
+
 s = input("String: ")
 
 def string_manipulation():
