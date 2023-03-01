@@ -72,9 +72,3 @@ def limpar_texto(texto):
 
 limpar_texto("Olá!!€  túdo?? bEm")
 
-
-
-
-
-
-
