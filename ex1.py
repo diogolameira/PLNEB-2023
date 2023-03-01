@@ -1,5 +1,4 @@
 #AULA 1
-
 from collections import Counter
 
 #1 Print em maiúsculas
