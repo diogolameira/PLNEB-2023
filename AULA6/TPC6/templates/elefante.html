@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Elefante</title>
+    <style>
+        .mural figure {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .mural img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .caption {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        figcaption {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 5px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        figure:hover figcaption {
+            opacity: 1;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #F58329;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18px;
+            position: absolute;
+			top: 10px;
+			right: 10px;
+        }
+    </style>
+</head>
+<br> <br>
+
+<body style="text-align:center">
+    <h1 style="color: black; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Elefante</h1>
+    <div class="mural">
+        <figure>
+            <img src="https://static.biologianet.com/2020/05/elefante-africano.jpg">
+            <figcaption class="caption">Os elefantes são os maiores animais terrestres vivos, com uma altura média de 3
+                metros e um peso médio de 5 toneladas.</figcaption>
+        </figure>
+        <figure>
+            <img src="https://static.escolakids.uol.com.br/conteudo_legenda/9f30571b4af7e68277b63ca1fb5ae357.jpg">
+            <figcaption class="caption">Elefantes são bons nadadores e podem nadar por longas distâncias usando suas
+                trombas como snorkels.</figcaption>
+        </figure>
+        <figure>
+            <img
+                src="https://segredosdomundo.r7.com/wp-content/uploads/2020/06/elefante-principais-habitos-caracteristicas-e-especies-vivas-1.jpg">
+            <figcaption class="caption">A memória dos elefantes é muito forte e eles são capazes de lembrar de lugares,
+                outros elefantes e até mesmo eventos por décadas.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <a href="/" class="btn">Home</a>
+    </div>
+</body>
+
+</html>

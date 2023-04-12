@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> EEE </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url("../imagens/image.png");
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+        }
+
+        p {
+            font-size: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            color:white;
+        }
+    
+        button {
+            background-color: #F58329;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+    
+        button:hover {
+            opacity: 0.8;
+        }
+    
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="button-container">
+      <h1>Bem-vindo!</h1>
+      <p>Clica nos botões para descobrir mais</p>
+      <button onclick="window.location.href='/egua'">Égua</button>
+      <button onclick="window.location.href='/elefante'">Elefante</button>
+      <button onclick="window.location.href='/engenharia'">Engenharia</button>
+    </div>
+  </body>
+</html>

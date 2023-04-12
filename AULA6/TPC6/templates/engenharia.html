@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Engenharia</title>
+    <style>
+        .mural figure {
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .mural img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .caption {
+            font-family:Arial, Helvetica, sans-serif;
+            color: black;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        figcaption {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 5px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        figure:hover figcaption {
+            opacity: 1;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #F58329;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18px;
+            position: absolute;
+			top: 10px;
+			right: 10px;
+        }
+    </style>
+</head>
+<br> <br>
+
+<body style="text-align:center">
+    <h1 style="color: black; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Engenharia</h1>
+    <div class="mural">
+        <figure>
+            <img src="https://biopdi.com.br/wp-content/uploads/2023/02/engenheiro-mecanico-pode-atuar-em-projetos.webp">
+            <figcaption class="caption">O primeiro curso de engenharia foi oferecido pela École des Ponts et Chaussées em Paris, em 1747.</figcaption>
+        </figure>
+        <figure>
+            <img src="https://i.natgeofe.com/k/8c9285b1-a97f-4f4b-a757-5e408f651ebd/black-scientist-jemison_3x2.jpg">
+            <figcaption class="caption">A NASA usa engenheiros para projetar e construir equipamentos e veículos espaciais, além de gerir missões espaciais.</figcaption>
+        </figure>
+        <figure>
+            <img src="https://media.istockphoto.com/id/1180170400/photo/asian-engineer-using-a-laptop-in-a-factory.jpg?s=170667a&w=0&k=20&c=bL-n3X4Vm-OYfZ1SAmgXpdLzfoRfV4I2zRc0SCbMa3Q=">
+            <figcaption class="caption">O primeiro engenheiro conhecido é Imhotep, que viveu no Egito Antigo há mais de 4.000 anos. Ele era um arquiteto, médico e sacerdote que projetou a primeira pirâmide de pedra conhecida.</figcaption>
+        </figure>
+    </div>
+    <div>
+        <a href="/" class="btn">Home</a>
+    </div>
+</body>
+
+</html>
