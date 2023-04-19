@@ -1,0 +1,1 @@
+TPC7 - Fazer melhorias nas páginas, incluindo a homepage e as páginas dos termos, recorrendo a componentes bootstrap

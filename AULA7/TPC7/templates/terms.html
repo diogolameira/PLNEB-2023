@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="list-group">
+
+    {% for d in designations %}
+    
+        {% if d not in excluded_terms %}
+
+            <a href="/term/{{d}}" class="list-group-item list-group-item-action list-group-item-light">{{d}}</a>
+
+        {% endif %}
+
+    {% endfor %}
+
+ </div>
+
+
+{% endblock %}

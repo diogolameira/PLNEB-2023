@@ -1,0 +1,67 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dicionário Médico</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* General styles */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Helvetica Neue", sans-serif;
+            background-color: #F4F4F4;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 80vh;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: bold;
+            color: whitesmoke;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            margin-bottom: 20px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 20px;
+            color: #444;
+            text-align: justify;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h2>Bem-vindo ao Dicionário Médico</h2>
+    </main>
+</body>
+
+</html>
+
+{% endblock %}
