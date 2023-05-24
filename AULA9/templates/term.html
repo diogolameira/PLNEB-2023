@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8">
+            <div class="card border-dark mb-3">
+                <div class="card-header bg-dark text-white">
+                    <h3 class="text-center">{{designation}}</h3>
+                </div>
+                <div class="card-body text-dark">
+                    <h5 class="card-title">Description:</h5>
+                    <p class="card-text">{{value["des"]}}</p>
+                    <hr>
+                    <h5 class="card-title">EN:</h5>
+                    <p class="card-text">{{value["en"]}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
